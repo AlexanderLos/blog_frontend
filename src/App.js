@@ -6,7 +6,7 @@ import Form from './pages/Form';
 import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-const apiURL = 'https://blog-backend-alex-f47abe65e953.herokuapp.com/';
+const apiURL = 'https://blog-backend-alex-f47abe65e953.herokuapp.com';
 
 function App() {
   const [posts, setPosts] = useState([]);
